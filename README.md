@@ -8,8 +8,8 @@ in your activity
   
   
 # how to use SaveImage ?
-private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap) {
 
+private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap) {
         if(shouldShare) {
             AppUtils.showToast(mContext, getString(R.string.preparing));
         } else {
@@ -19,7 +19,6 @@ private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap)
         saveImage.setSaveListener(new SaveImage.SaveListener() {
             @Override
             public void onSaved(String savedTo) {
-
                 if (shouldShare) {
                     AppUtils.share(mActivity, savedTo);
                 } else {
