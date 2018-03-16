@@ -8,8 +8,17 @@ in your activity
 ```java
   generateCode(YOUR VALUE HERE);
 ```
-  
-# how to use SaveImage ?
+
+# how to save with share our without ? 
+
+First parameter is Boolean that do you want to share or not ? ture for save with share.
+Second parameter is input value. Type (String)
+Thirtd paramter is output. Type (Bitmap)
+```java
+saveAndShare(false, inputStr, output);
+```
+
+# SaveImage funcation ?
 
 ```java
 private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap) {
