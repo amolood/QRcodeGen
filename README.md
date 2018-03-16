@@ -4,8 +4,10 @@ To generate qrcode using android with save as image class
 
 # how to use CodeGenerator ?
 in your activity 
+
+```java
   generateCode(YOUR VALUE HERE);
-  
+```
   
 # how to use SaveImage ?
 
