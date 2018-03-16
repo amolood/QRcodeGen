@@ -9,6 +9,7 @@ in your activity
   
 # how to use SaveImage ?
 
+```java
 private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap) {
         if(shouldShare) {
             AppUtils.showToast(mContext, getString(R.string.preparing));
@@ -28,3 +29,4 @@ private void saveAndShare(final boolean shouldShare, String name, Bitmap bitmap)
         });
         saveImage.execute();
     }
+```
